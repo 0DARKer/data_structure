@@ -22,6 +22,15 @@ tre create(int a[],int i,int j, int b[],int m,int n){
     return p;
 }
 
+void preorder(tre p){
+    if (p==NULL) { 
+        return; 
+    } 
+    cout << p->data;
+    preorder(p->L);
+    preorder(p->R);
+
+}
 
 int main(){
     int x;
@@ -36,16 +45,10 @@ int main(){
     tre p[100];
     int j=1;
     p[0] = create(a,0,x-1 ,b,0,x-1);
-    for(int i=0;i<x*2 ;i++){
-        if (p[i]!=NULL){
-            if(i!=0)cout << " ";
-            cout<<  p[i]->data;
-            p[j++]=p[i]->L;
-            p[j++]=p[i]->R;
-        }
+    preorder(p[0]);
+    for(int i=0;p[i]!=NULL&&j<100;i++){
+        cout << p[i]->data;
+        p[j++]=p[i]->L;
+        p[j++]=p[i]->R;
     }
-    cout << endl;
-}
-int main(){
-    
 }
