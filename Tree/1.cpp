@@ -46,6 +46,3 @@ int main(){
     }
     cout << endl;
 }
-int main(){
-    
-}
