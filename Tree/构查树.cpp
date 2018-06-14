@@ -7,7 +7,7 @@ typedef struct T{
   struct T *Rnode;
 }Tnode,*Tptr;
 Tptr createT(int a[],int x,int y,int b[],int n,int m){
-  Tptr p = nullptr;
+  Tptr p = new Tnode;
   p->data=a[x];
   int i;
   for(i=n;i<m;i++){if(b[i]==a[x])break;}
