@@ -14,8 +14,6 @@ typedef struct G {
   bool check;
   struct L *head;
 }Gnode;
-
-
 int main(){
   int N;
   cin >>N;
@@ -38,6 +36,6 @@ int main(){
         if(g[i].data==b){Lptr p=new Lnode ; p->data=j;p->next=g[i].head;g[i].head=p;}
       }}
     }
-
   }
+
 }
