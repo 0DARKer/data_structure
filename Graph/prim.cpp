@@ -14,6 +14,8 @@ typedef struct G {
   bool check;
   struct L *head;
 }Gnode;
+
+
 int main(){
   int N;
   cin >>N;
@@ -37,5 +39,12 @@ int main(){
       }}
     }
   }
-
+  int a[N+1][3];
+  for(int i=0;i<N;i++){
+    a[i][0]=1;
+    a[i][1]=i+1;
+  }
+  for(int i=0;i<N;i++){
+    Lptr p=g[1].head;
+  }
 }
