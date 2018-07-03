@@ -19,15 +19,14 @@ int main(){
                 }
                 else {
                 b[j++]='\000';
-               if (j<30) 
+               if (j<30)
                 fout << b<<endl;
                 j=0;
                 break;
                 }
             }
-        } 
+        }
     }
     }
     cout << "完成!"<< endl;
-
 }

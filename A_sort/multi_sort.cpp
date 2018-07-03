@@ -116,6 +116,6 @@ int main(){
         cin >>a[i];
     /* shell(a,N); */
     /* un_quicksort(a,N); */
-    heapsort(a,N);
+    /* heapsort(a,N); */
     print_(a,N);
 }
