@@ -3,8 +3,8 @@
 using namespace std;
 int main(){
 
-    ifstream fin("/home/darker/4g/dict2");
-    ofstream fout("/mnt/file.txt",ios::app);
+    ifstream fin("dict");
+    ofstream fout("dict.file",ios::app);
     string a;
     char b[1000];
     cout << "读取文件,写入文件...."<<endl;
