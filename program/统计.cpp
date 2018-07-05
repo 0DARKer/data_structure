@@ -10,7 +10,7 @@ int init()
     map<string, int> M;
     map<string, int>::iterator j;
     string t;
-    ifstream fin("3.2G.file");
+    ifstream fin("3.2G.input");
     ofstream fout("freq.output");
     while(fin>>t)
         M[t]++;

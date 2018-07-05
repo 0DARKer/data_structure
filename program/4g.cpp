@@ -2,7 +2,6 @@
 #include<fstream>
 using namespace std;
 int main(){
-
     ifstream fin("dict");
     ofstream fout("dict.file",ios::app);
     string a;
