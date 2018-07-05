@@ -1,3 +1,5 @@
+//对文件的切词还是不够大,这个程序对切词的文件中的每个词随机扩大..
+//好像有bug.
 #include<iostream>
 #include<fstream>
 using namespace std;

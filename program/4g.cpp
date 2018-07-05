@@ -1,3 +1,5 @@
+//对一个文章进行切词...
+//还是很棒的
 #include<iostream>
 #include<fstream>
 using namespace std;
